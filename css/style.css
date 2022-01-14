@@ -72,7 +72,6 @@ body {
   animation-timing-function: ease-out;
   /* animation-iteration-count: 3; */
   /* animation-delay: 3s; */
-  animation: colorChange 1s ease;
 }
 
 .heading-primary-sub {
@@ -103,15 +102,18 @@ body {
 
 @keyframes moveInRight {
   0% {
+    color: #55c57a;
     opacity: 0;
     transform: translateX(100px);
   }
 
   80% {
+    color: #7ed56f;
     transform: translateX(-10px);
   }
 
   100% {
+    color: #fff;
     opacity: 1;
     transform: translateX(0);
   }
